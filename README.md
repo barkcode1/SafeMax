@@ -7,6 +7,13 @@ I learned a surprising amount of knowledge from just this small project alone.
  - [Overwrite Mode](#overwrite-mode) (My favorite part)
  - Easy to use and open source
 
+## Vulnerabilities
+ - Brute force attacks are very powerful in combination with SHA-256 hashing algorthims due to sheer speed and optimizations.
+ - Lose salt = impossible to decrypt files
+
+I would like to change this in a future update. I read about Argon2 and it seems like a promising option to use for key gen.
+
+
 ## Installation (.exe)
 Installing as a .exe format might take a bit more time but it is still easy to do and makes the program more accessible and user friendly.
 
